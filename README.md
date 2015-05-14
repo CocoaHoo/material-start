@@ -96,12 +96,13 @@ it easier to serve the files by a webserver.*
 
 #####Download and Setup Selenium Webdriver
 ```
+npm install selenium-webdriver
 webdriver-manager update --standalone
 ```
 
 ###Run End-to-End Tests
-1. Start webserver using http-server as noted above
-1. Start Selenium Webdriver
+1. Start webserver using http-server as noted above.
+1. In another tab, start a Webdriver instance:
 ```
 webdriver-manager start
 ```
